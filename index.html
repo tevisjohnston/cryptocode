@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crack The Crypto Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+         
+         Collect_Optin = false;  
+         Aweber_List = "aw53324266";  
+         Affiliate_Link = "https://gohere.co/cccb/";  
+         Web_form_ID = "53324266";  
+         cta_image_url = "splash-image.webp";  
+         headline = "A Secret Strategy that Works Fast and Profits Consistently Whether the Market is Up or Down! ";
+         subhead = "Watch and participate in the entire workshop and receive a free bonus...";
+         ctaHeadline = "No purchase necessary...";
+         ctaButtonText = "Click For Reserve A Spot...";
+         background_color = "#eff5ed";  
+         headline_color = "#303036";    
+         subhead_color = "#303036";     
+         contactEmail = "support1@example.com";
+
+    </script>
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+
+        html {
+            height: 100%;
+            background-color: #e9e9e9;
+            font-size: 16px;
+            letter-spacing: -0.25px;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: auto; /* Push footer to the bottom */
+            padding: 1rem;
+            border-top: 1px solid #ddd; /* Optional: Footer border */
+            text-align: center;
+        }
+
+
+        h1, h2 {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%; 
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fade-in-text {
+            opacity: 0;
+            animation: fadeIn 500ms ease-in forwards;
+        }
+
+        .fade-in-text-delay-01 {
+            opacity: 0;
+            animation: fadeIn 600ms ease-in forwards;
+        }
+
+        .fade-in-text-delay-02 {
+            opacity: 0;
+            animation: fadeIn 700ms ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            padding: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+        .container {
+            max-width: 960px;
+            padding: 1rem;
+            margin: auto;
+        }
+
+        .modal-dialog {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        @media (min-width: 768px) {
+            /* Fix spacing between headline and subhead */
+            h1 {
+                font-size: 2rem;
+                line-height: 2rem;
+                margin-bottom: 0.5rem; /* Minimal spacing below the headline */
+            }
+
+            h2 {
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+                margin-top: 0; /* Remove unnecessary spacing above the subhead */
+                margin-bottom: 1rem; /* Adjust as needed */
+            }
+        }
+        .image-container {
+            margin: 1rem auto;
+            max-width: 600px; /* Restrict the maximum width of the image */
+            border: 1px solid #ddd; /* Optional border for styling */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+        }
+
+        .image-container img {
+            width: 100%; /* Ensure the image is responsive */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: auto;
+            border-radius: 8px; /* Optional: rounded corners */
+        }
+        .custom-cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(90deg, #0011ff, #0011ffdc);
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .custom-cta-button:hover {
+            background: linear-gradient(90deg, #0011ff, #0011ffdc);
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-cta-button:active {
+            transform: scale(0.98);
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        }
+        /* For tablets and smaller devices */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 1.5rem; /* 32px */
+            }
+        }
+
+        /* For small mobile devices */
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+    
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header Section -->
+    <header class="container text-center mt-2">
+        <h1 id="headline" class="fade-in-text"> </h1>
+        <h2 id="subhead" class="fade-in-text-delay-01 mt-4"></h2>
+    </header>
+
+    <main class="container text-center">
+        <div class="image-container mt-1 fade-in-text-delay-01">
+            <img id="cta-image" src="" alt="image" class="img-fluid">
+        </div>
+        <h2><a id="cta-tgr" class="fade-in-text-delay-02 mt-3" href="#">Discover What Java Burn Coffee Can Do For You...</a></h2>
+        <a id="cta-tgr2" class="custom-cta-button fade-in-text-delay-02 mt-3" href="#">Click For A Complete Review</a>
+    </main>
+
+    <!-- Confirmation Popup Modal -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center w-100" id="confirmModalLabel">Almost Done</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Enter your <strong>best Valid Email</strong>:</p>
+
+                    <!-- AWeber Form -->
+                    <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+                        <input type="hidden" name="meta_web_form_id" id="meta_web_form_id" />
+                        <input type="hidden" name="meta_split_id" value="" />
+                        <input type="hidden" name="listname" id="listname" />
+                        <input type="hidden" name="redirect" id="redirect" />
+                        <input type="hidden" name="meta_adtracking" id="meta_adtracking" />
+                        <input type="hidden" name="meta_message" value="1" />
+                        <input type="hidden" name="meta_required" value="email" />
+                        <input type="hidden" name="meta_tooltip" value="" />
+
+                        <!-- Email Input Field -->
+                        <input type="email" class="form-control my-3" name="email" placeholder="Your Email Address Here..." required />
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-success">Click to Confirm</button>
+                    </form>
+                    <!-- End AWeber Form -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Popups -->
+    <footer class="container text-center mt-auto footer fade-in-text-delay-01">
+        <a href="#" class="contact-link">Support</a> |
+        <a href="#" id="privacy-link">Privacy</a> |
+        <a href="#" id="terms-link">Terms</a> |
+        <a href="#" id="disclaimer-link">Disclaimer</a><br><br>
+        © 2025 All Rights Reserved
+    </footer>
+
+    <!-- Privacy Popup -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-4">
+                <div class="modal-header">
+                    <h5 class="modal-title">Privacy Policy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Privacy content from privacy.html -->
+                    <h3>Privacy Policy</h3>
+
+                    <p>Your privacy is important to us. This privacy statement explains the personal data our company processes, how our company processes it, and for what purposes.</p>
+
+                    <h3>Information Collection</h3>
+                    <p>We collect various types of information, including information that identifies or may identify you as an individual ("Personal Data").</p>
+
+                    <h3>How We Use Information</h3>
+                    <p>Your information is used to improve our services and to ensure a better experience on our website.</p>
+
+                    <h3>Cookies</h3>
+                    <p>We use cookies to personalize your experience and analyze our website"s traffic.</p>
+
+                    <h3>Changes to this Privacy Policy</h3>
+                    <p>We reserve the right to update our Privacy Policy at any time. Please review this page periodically for any changes.</p>
+
+                    <p>If you have any questions about our privacy practices, feel free to <a class="contact-link" href="#">contact us</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!-- Terms Popup -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-4">
+                <div class="modal-header">
+                    <h5 class="modal-title">Terms & Conditions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Terms content from terms.html -->
+                    <h3>Terms & Conditions</h3>
+
+                    <p>Welcome to our website. By accessing or using this website, you agree to comply with and be bound by the following terms and conditions of use.</p>
+
+                    <h3>Use of Site</h3>
+                    <p>All content on this website is for general information and use only. It is subject to change without notice.</p>
+
+                    <h3>Intellectual Property</h3>
+                    <p>All content, trademarks, and data on this website are the property of our company unless otherwise stated.</p>
+
+                    <h3>Disclaimer</h3>
+                    <p>We make no warranties or representations about the accuracy or completeness of the website’s content.</p>
+
+                    <h3>Limitation of Liability</h3>
+                    <p>Our company will not be held responsible for any damages arising from the use of this website.</p>
+
+                    <h3>Changes to Terms</h3>
+                    <p>We reserve the right to make changes to these terms at any time. Continued use of the site constitutes your acceptance of any changes.</p>
+
+                    <p>If you have any questions about these Terms & Conditions, feel free to <a class="contact-link" href="#">contact us</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!-- Disclaimer Popup -->
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-4">
+                <div class="modal-header">
+                    <h5 class="modal-title">Earnings Disclaimer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Disclaimer content from disclaimer.html -->
+                    <h3>Earnings Disclaimer</h3>
+
+                    <p>Every effort has been made to accurately represent our products and their potential. However, there is no guarantee that you will earn any money using the techniques and ideas in these materials.</p>
+
+                    <h3>No Guarantees</h3>
+                    <p>Your level of success depends on a variety of factors including your skill, dedication, and financial situation. We make no guarantees regarding your earnings.</p>
+
+                    <h3>Results Vary</h3>
+                    <p>Any testimonials or examples of success are not intended to represent or guarantee that anyone will achieve the same or similar results.</p>
+
+                    <h3>Assumption of Risk</h3>
+                    <p>By using this website and purchasing our products, you acknowledge and accept that earnings and income statements differ by individual.</p>
+
+                    <p>If you have any questions about this Earnings Disclaimer, feel free to <a class="contact-link" href="#">contact us</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!-- JavaScript to Handle Popups and Form Submission -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Assign imported values to the form
+        document.getElementById("meta_web_form_id").value = Web_form_ID;
+        document.getElementById("listname").value = Aweber_List;
+        document.getElementById("redirect").value = Affiliate_Link;
+
+        // Popup modals
+        document.getElementById("privacy-link").addEventListener("click", function () {
+            var privacyModal = new bootstrap.Modal(document.getElementById("privacyModal"));
+            privacyModal.show();
+        });
+
+        document.getElementById("terms-link").addEventListener("click", function () {
+            var termsModal = new bootstrap.Modal(document.getElementById("termsModal"));
+            termsModal.show();
+        });
+
+        document.getElementById("disclaimer-link").addEventListener("click", function () {
+            var disclaimerModal = new bootstrap.Modal(document.getElementById("disclaimerModal"));
+            disclaimerModal.show();
+        });
+
+        function openConfirmModal() {
+            var confirmModal = new bootstrap.Modal(document.getElementById("confirmModal"));
+            confirmModal.show();
+        }
+
+        if (Collect_Optin) {
+            document.getElementById("cta-tgr").addEventListener("click", openConfirmModal);
+            document.getElementById("cta-tgr2").addEventListener("click", openConfirmModal);
+            document.getElementById("cta-image").addEventListener("click", openConfirmModal);
+        } else {
+            document.getElementById("cta-tgr").addEventListener("click", redirectToAffiliateLink);
+            document.getElementById("cta-tgr2").addEventListener("click", redirectToAffiliateLink);
+            document.getElementById("cta-image").addEventListener("click", redirectToAffiliateLink);
+        }
+        
+        function redirectToAffiliateLink(event) {
+            event.preventDefault(); // Prevent default click behavior
+            console.log("Redirecting to:", Affiliate_Link);
+            window.location.href = Affiliate_Link; // Perform the redirection
+        }
+
+        window.addEventListener("DOMContentLoaded", () => {
+            const ctaImage = document.getElementById("cta-image");
+            ctaImage.src = cta_image_url;
+
+            if (ctaImage) {
+                ctaImage.style.cursor = "pointer";
+            }
+
+            // Set the background color and image
+            document.body.style.backgroundColor = background_color;
+
+            // Set the headline and subhead colors
+            document.getElementById("headline").style.color = headline_color;
+            document.getElementById("subhead").style.color = subhead_color;
+
+            // Update headline and subhead 
+            document.getElementById("headline").innerHTML = headline;
+            document.getElementById("subhead").innerHTML = subhead;
+            document.getElementById("cta-tgr").innerHTML = ctaHeadline;
+            document.getElementById("cta-tgr2").innerHTML = ctaButtonText;
+            
+            // Update all contact links (if you have contactEmail )
+            document.querySelectorAll(".contact-link").forEach(link => {
+                link.href = `mailto:${contactEmail}`;
+            });
+        });
+
+    </script>
+</body>
+</html>
